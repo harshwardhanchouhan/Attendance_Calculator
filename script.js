@@ -55,5 +55,4 @@ calcBtnJS.addEventListener("click", function() {
             "Your attendance is " + Math.floor(attendanceJS) + "%" +
             "<br>You need to attend <strong>" + needToAttendJS + "</strong> classes";
     }
-
 });
