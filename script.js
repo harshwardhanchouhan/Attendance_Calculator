@@ -36,14 +36,11 @@ calcBtnJS.addEventListener("click", function() {
         let canSkipJS = Math.floor(
             (attendedclassJS * 100 / targetattJS) - totalclassJS
         );
-
         resultJS.innerHTML =
             "Your attendance is " + Math.floor(attendanceJS) + "%" +
             "<br>You safe gng chill out" +
             "<br>You can skip <strong>" + canSkipJS + "</strong> classes";
-
     }
-
     else {
         resultBoxJS.className = "danger";
         let needToAttendJS = Math.ceil(
